@@ -9,7 +9,7 @@ var werckerOrgId = process.argv[4];
 var credentialSetName = process.argv[5];
 var userOcid = process.argv[6];
 var fingerprint = process.argv[7];
-var privateKey = process.env.PRIVATE_KEY;
+var privateKey = process.env.PRIVATE_KEY.replace(/\\n/g, '\n');
 var tenancyOcid = process.argv[8];
 var region = process.argv[9];
 

@@ -1,0 +1,15 @@
+{
+    "name": "cluster-provisioner",
+    "version": "0.0.0",
+    "description": "Wercker REST API wrapper",
+    "main": "clusters.js",
+    "author": "derek.oneill@oracle.com",
+    "scripts": {
+    },
+    "dependencies": {
+        "request": "latest"
+    },
+    "engines": {
+        "node": ">=0.12.0"
+    }
+}

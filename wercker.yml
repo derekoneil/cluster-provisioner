@@ -1,0 +1,10 @@
+box: node
+
+build:
+  steps:
+    - npm-install
+  
+    - script:
+        name: echo nodejs information
+        code: |
+          echo clusters.js create $WERCKER_TOKEN $WERCKER_ORG $CREDENTIAL_NAME $USER_OCID $KEY_FINGERPRINT $PRIVATE_KEY $TENANCY_OCID $REGION $CLUSTER_NAME $K8S_VERSION $COMPARTMENT_OCID default-node-pool VM.Standard1.2 Oracle-Linux-7.4 1 AD-1,AD-2 $WERCKER_USER
